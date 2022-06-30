@@ -113,4 +113,4 @@ private:
 };
 //! [0]
 
-#endif // PIEVIEW_H
+#endif

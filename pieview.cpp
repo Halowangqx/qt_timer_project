@@ -101,9 +101,6 @@ bool PieView::edit(const QModelIndex &index, EditTrigger trigger, QEvent *event)
         return false;
 }
 
-/*
-    Returns the item that covers the coordinate given in the view.
-*/
 
 QModelIndex PieView::indexAt(const QPoint &point) const
 {
@@ -457,9 +454,7 @@ void PieView::scrollTo(const QModelIndex &index, ScrollHint)
     update();
 }
 
-/*
-    Find the indices corresponding to the extent of the selection.
-*/
+
 
 void PieView::setSelection(const QRect &rect, QItemSelectionModel::SelectionFlags command)
 {

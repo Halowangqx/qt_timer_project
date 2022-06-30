@@ -115,4 +115,4 @@ Q_SIGNALS:
     void currentDateTimeChanged(const QDateTime &dateTime);
 };
 
-#endif // TUMBLERDATETIME_H
+#endif

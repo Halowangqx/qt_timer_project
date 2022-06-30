@@ -44,7 +44,7 @@ MainWidget::MainWidget(QWidget *parent, QMap<QString, QVector<int> > series, QVe
 
     // Set the axises
     axisX = new QDateTimeAxis;
-    axisX->setTickCount(days.count());
+    //axisX->setTickCount(days.count());
     axisX->setFormat("M月d日");
     m_chart->addAxis(axisX, Qt::AlignBottom);
 

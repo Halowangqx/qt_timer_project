@@ -25,4 +25,4 @@ private:
     bool   m_rotateDirection; //进度方向 默认顺时针
 };
 
-#endif // QBCIRQUE_H
+#endif

@@ -102,4 +102,4 @@ Q_SIGNALS:
     void currentValueChanged(QString currentValue);
 };
 
-#endif // TUMBLER_H
+#endif
